@@ -210,7 +210,7 @@ const professorSchedule = getProfessorSchedule(1);
 console.log("Professor schedule:", professorSchedule);
 
 const utilization = getClassroomUtilization("101");
-console.log("Classroom utilization:", utilization);
+console.log("Classroom utilization:", utilization + "%");
 
 const mostPopularType = getMostPopularCourseType();
 console.log("Most popular course type:", mostPopularType);
